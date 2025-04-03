@@ -50,7 +50,7 @@ const Hero = () => {
           {/* Right side - Image */}
           <div className="w-full md:w-1/2">
             <img 
-              src="/lovable-uploads/78694ebb-abe1-4a10-820a-72a553a02769.png" 
+              src="/lovable-uploads/fionapolitain.jpg" 
               alt="Fiona Politain" 
               className="w-full h-auto rounded-lg object-cover shadow-md"
             />
