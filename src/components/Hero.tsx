@@ -4,7 +4,7 @@ import { Play } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="py-20 md:py-24 relative overflow-hidden">
+    <div className="min-h-screen py-20 md:py-0 flex items-center relative overflow-hidden">
       <div 
         className="absolute inset-0 opacity-10 z-0 text-[20rem] font-bold text-fiona-pink/20 flex items-end justify-center overflow-hidden"
         style={{ fontFamily: "serif" }}
@@ -45,7 +45,7 @@ const Hero = () => {
           {/* Right side - Circular Image */}
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="relative">
-              <div className="w-[400px] h-[400px] md:w-[500px] md:h-[500px] rounded-full bg-[#f5e8dd] overflow-hidden flex items-center justify-center">
+              <div className="w-[320px] h-[320px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] rounded-full bg-[#f5e8dd] overflow-hidden flex items-center justify-center">
                 <img 
                   src="/lovable-uploads/image.webp" 
                   alt="Fiona Politain" 
