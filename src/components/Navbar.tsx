@@ -35,9 +35,9 @@ const Navbar = () => {
 
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-8">
-            <NavLink to="/cours">Services</NavLink>
-            <NavLink to="/tarifs">Tarifs</NavLink>
-            <NavLink to="/a-propos">À Propos</NavLink>
+            <NavLink to="/">Services</NavLink>
+            <NavLink to="/">Tarifs</NavLink>
+            <NavLink to="/">À Propos</NavLink>
             <NavLink to="/contact">Contact</NavLink>
           </div>
 
