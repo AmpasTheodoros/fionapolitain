@@ -16,10 +16,10 @@ const Footer = () => {
             <h4 className="font-medium text-lg">Navigation</h4>
             <ul className="space-y-2">
               <li><Link to="/" className="text-gray-300 hover:text-fiona-pink transition-colors">Accueil</Link></li>
-              <li><Link to="/a-propos" className="text-gray-300 hover:text-fiona-pink transition-colors">À Propos</Link></li>
-              <li><Link to="/cours" className="text-gray-300 hover:text-fiona-pink transition-colors">Cours d'Anglais</Link></li>
-              <li><Link to="/tarifs" className="text-gray-300 hover:text-fiona-pink transition-colors">Tarifs</Link></li>
-              <li><Link to="/contact" className="text-gray-300 hover:text-fiona-pink transition-colors">Contact</Link></li>
+              <li><Link to="/" className="text-gray-300 hover:text-fiona-pink transition-colors">À Propos</Link></li>
+              <li><Link to="/" className="text-gray-300 hover:text-fiona-pink transition-colors">Cours d'Anglais</Link></li>
+              <li><Link to="/" className="text-gray-300 hover:text-fiona-pink transition-colors">Tarifs</Link></li>
+              <li><Link to="https://calendly.com/fiona-khadraoui/30min" className="text-gray-300 hover:text-fiona-pink transition-colors">Contact</Link></li>
             </ul>
           </div>
 
@@ -37,8 +37,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-medium text-lg">Légal</h4>
             <ul className="space-y-2">
-              <li><Link to="/mentions-legales" className="text-gray-300 hover:text-fiona-pink transition-colors">Mentions Légales</Link></li>
-              <li><Link to="/politique-confidentialite" className="text-gray-300 hover:text-fiona-pink transition-colors">Politique de Confidentialité</Link></li>
+              <li><Link to="/" className="text-gray-300 hover:text-fiona-pink transition-colors">Mentions Légales</Link></li>
+              <li><Link to="/" className="text-gray-300 hover:text-fiona-pink transition-colors">Politique de Confidentialité</Link></li>
             </ul>
           </div>
         </div>
