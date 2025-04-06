@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -10,11 +9,11 @@ const CourseBanner = () => {
           Prêt(e) à améliorer votre anglais ?
         </h2>
         <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-          Découvrez mes cours particuliers d'anglais en ligne ou en présentiel 
-          et commencez votre voyage vers la maîtrise de l'anglais.
+          Prenez le contrôle de votre avenir linguistique dès maintenant. 
+          La première séance de découverte est gratuite et sans engagement.
         </p>
-        <Button asChild className="bg-white text-fiona-accent hover:bg-white/90">
-          <Link to="/contact">Réserver une séance d'essai</Link>
+        <Button asChild size="lg" className="bg-white text-fiona-accent hover:bg-white/90 px-8 py-6 text-lg font-medium">
+          <Link to="https://calendly.com/fiona-khadraoui/30min">Je réserve ma séance gratuite</Link>
         </Button>
       </div>
     </div>

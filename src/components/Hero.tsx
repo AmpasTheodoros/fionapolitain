@@ -1,59 +1,58 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Twitter, Linkedin } from "lucide-react";
+import { Play } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="py-16 md:py-24 bg-[#f5f2ed]">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto border border-gray-200 rounded-lg p-6 md:p-10 bg-white/80">
+    <div className="py-20 md:py-24 relative overflow-hidden">
+      <div 
+        className="absolute inset-0 opacity-10 z-0 text-[20rem] font-bold text-fiona-pink/20 flex items-end justify-center overflow-hidden"
+        style={{ fontFamily: "serif" }}
+      >
+        ENGLISH
+      </div>
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
+        <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
           {/* Left side - Text content */}
-          <div className="w-full md:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 font-playfair">
-              Fiona Politain
+          <div className="w-full lg:w-1/2 space-y-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 font-playfair leading-tight">
+              Vous cherchez un professeur <span className="text-fiona-pink">d'anglais</span> idéal?
             </h1>
-            <p className="text-lg text-gray-700">
-              Professeur d'anglais passionnée et streameuse, j'offre des cours particuliers adaptés à tous les niveaux. Découvrez une méthode d'apprentissage moderne et efficace.
-            </p>
             
-            {/* Social media links */}
-            <div className="flex items-center space-x-2 text-gray-600 pt-4">
-              <span className="font-medium">@fionapolitain</span>
-            </div>
-            <div className="flex items-center space-x-4 text-gray-700">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-fiona-pink transition-colors">
-                <Instagram size={22} />
-              </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-fiona-pink transition-colors">
-                <Facebook size={22} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-fiona-pink transition-colors">
-                <Twitter size={22} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-fiona-pink transition-colors">
-                <Linkedin size={22} />
-              </a>
-            </div>
+            <p className="text-xl text-gray-700">
+              Progresser rapidement en anglais grâce à mes cours personnalisés
+            </p>
             
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button asChild className="bg-fiona-pink hover:bg-fiona-pink/80 text-white rounded-md">
-                <Link to="/cours">Découvrir mes cours</Link>
+                <Link to="https://calendly.com/fiona-khadraoui/30min">Réserver un cours</Link>
               </Button>
-              <Button asChild variant="outline" className="border-fiona-pink text-fiona-pink hover:bg-fiona-pink/10 rounded-md">
+              {/* <Button asChild variant="outline" className="border-fiona-pink text-fiona-pink hover:bg-fiona-pink/10 rounded-md">
                 <Link to="/contact">Me contacter</Link>
-              </Button>
+              </Button> */}
+            </div>
+
+            <div className="pt-8">
+              <div className="border-l-4 border-gray-300 pl-4 italic">
+                <p className="text-gray-700">Un investissement dans le savoir paie toujours les meilleurs intérêts</p>
+                <p className="text-gray-700">An investment in knowledge pays the best interest</p>
+                <p className="text-gray-800 font-medium mt-2">Benjamin Franklin</p>
+              </div>
             </div>
           </div>
           
-          {/* Right side - Image */}
-          <div className="w-full md:w-1/2">
-            <img 
-              src="/lovable-uploads/fionapolitain.jpg" 
-              alt="Fiona Politain" 
-              className="w-full h-auto rounded-lg object-cover shadow-md"
-            />
+          {/* Right side - Circular Image */}
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <div className="relative">
+              <div className="w-[400px] h-[400px] md:w-[500px] md:h-[500px] rounded-full bg-[#f5e8dd] overflow-hidden flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/image.webp" 
+                  alt="Fiona Politain" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

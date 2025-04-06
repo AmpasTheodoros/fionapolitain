@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -31,15 +30,14 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <Link to="/" className="font-playfair text-2xl font-bold text-white">
-            Fiona<span className="text-fiona-pink">Politain</span>
+            Anglais<span className="text-fiona-pink">Fiona</span>
           </Link>
 
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-8">
-            <NavLink to="/">Accueil</NavLink>
-            <NavLink to="/a-propos">À Propos</NavLink>
-            <NavLink to="/cours">Cours d'Anglais</NavLink>
+            <NavLink to="/cours">Services</NavLink>
             <NavLink to="/tarifs">Tarifs</NavLink>
+            <NavLink to="/a-propos">À Propos</NavLink>
             <NavLink to="/contact">Contact</NavLink>
           </div>
 
@@ -61,10 +59,9 @@ const Navbar = () => {
           isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         )}
       >
-        <NavLink to="/" onClick={() => setIsOpen(false)}>Accueil</NavLink>
-        <NavLink to="/a-propos" onClick={() => setIsOpen(false)}>À Propos</NavLink>
-        <NavLink to="/cours" onClick={() => setIsOpen(false)}>Cours d'Anglais</NavLink>
+        <NavLink to="/cours" onClick={() => setIsOpen(false)}>Services</NavLink>
         <NavLink to="/tarifs" onClick={() => setIsOpen(false)}>Tarifs</NavLink>
+        <NavLink to="/a-propos" onClick={() => setIsOpen(false)}>À Propos</NavLink>
         <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
       </div>
     </nav>

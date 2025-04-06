@@ -22,7 +22,7 @@ const TestimonialCard = ({ content, author, role }: TestimonialProps) => {
 
 const Testimonials = () => {
   return (
-    <section className="py-20 bg-fiona-dark text-white">
+    <section className="py-20 bg-fiona-dark text-fiona-pink">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-playfair mb-4">Ce que disent mes élèves</h2>

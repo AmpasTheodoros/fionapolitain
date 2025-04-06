@@ -34,22 +34,8 @@ const Contact = () => {
                 <ContactMethod 
                   icon={<Mail size={24} />}
                   title="Email"
-                  details="contact.fionapolitain@gmail.com"
-                  link="mailto:contact.fionapolitain@gmail.com"
-                />
-                
-                <ContactMethod 
-                  icon={<MessageCircle size={24} />}
-                  title="Discord"
-                  details="discord.gg/Ha5Pfbfqc8"
-                  link="https://discord.gg/Ha5Pfbfqc8"
-                />
-                
-                <ContactMethod 
-                  icon={<Twitch size={24} />}
-                  title="Twitch"
-                  details="twitch.tv/fionapolitain"
-                  link="https://twitch.tv/fionapolitain"
+                  details="fiona.khadraoui@gmail.com"
+                  link="mailto:fiona.khadraoui@gmail.com"
                 />
                 
                 <ContactMethod 
@@ -59,59 +45,16 @@ const Contact = () => {
                   link="https://instagram.com/fionapolitain"
                 />
                 
-                <ContactMethod 
-                  icon={<Twitter size={24} />}
-                  title="Twitter"
-                  details="@fionapolitain"
-                  link="https://twitter.com/fionapolitain"
-                />
               </div>
             </div>
             
             <div className="bg-gray-50 p-8 rounded-lg">
               <h2 className="text-2xl font-bold font-playfair mb-6">Formulaire de Contact</h2>
-              <ContactForm />
+              <iframe src="https://calendly.com/fiona-khadraoui/30min" height="300" width="600"/>         
             </div>
           </div>
         </div>
       </div>
-      
-      {/* FAQ Section */}
-      <div className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold font-playfair text-center mb-12">Questions Fréquentes</h2>
-            
-            <div className="space-y-6">
-              <FaqItem 
-                question="Comment se déroulent les cours particuliers ?"
-                answer="Les cours particuliers sont adaptés à vos besoins et à votre niveau. Nous définissons ensemble vos objectifs et je crée un programme sur mesure. Les cours peuvent se dérouler en ligne via Zoom ou en présentiel selon votre préférence."
-              />
-              
-              <FaqItem 
-                question="Quel est votre tarif horaire ?"
-                answer="Les tarifs varient en fonction du type de cours et de votre niveau. Pour les cours particuliers, comptez entre 35€ et 55€ par heure. N'hésitez pas à me contacter pour obtenir un devis personnalisé."
-              />
-              
-              <FaqItem 
-                question="Proposez-vous des séances d'essai ?"
-                answer="Oui, je propose une séance d'essai à tarif réduit pour vous permettre de découvrir ma méthode d'enseignement et de vous assurer que nous pouvons travailler ensemble efficacement."
-              />
-              
-              <FaqItem 
-                question="Comment s'inscrire à vos cours ?"
-                answer="Pour vous inscrire, il vous suffit de me contacter via le formulaire de contact, par email ou sur Discord. Nous discuterons de vos besoins et je vous guiderai à travers le processus d'inscription."
-              />
-              
-              <FaqItem 
-                question="Quelle est votre politique d'annulation ?"
-                answer="Les cours peuvent être annulés ou reportés jusqu'à 24 heures à l'avance sans frais. Pour toute annulation tardive, le cours sera facturé à 50% de son prix."
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      
       <Footer />
     </div>
   );
