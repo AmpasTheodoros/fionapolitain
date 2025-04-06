@@ -49,7 +49,7 @@ const SolutionSection = () => {
             </div>
             
             <Button asChild className="bg-fiona-pink hover:bg-fiona-pink/80 text-white">
-              <Link to="/contact">Réserver une première séance</Link>
+              <Link to="https://calendly.com/fiona-khadraoui/30min">Réserver une première séance</Link>
             </Button>
           </div>
           

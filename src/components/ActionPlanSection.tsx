@@ -55,7 +55,7 @@ const ActionPlanSection = () => {
         
         <div className="text-center">
           <Button asChild className="bg-fiona-pink hover:bg-fiona-pink/80 text-white px-8 py-6 text-lg">
-            <Link to="/contact">Je réserve ma séance découverte</Link>
+            <Link to="https://calendly.com/fiona-khadraoui/30min">Je réserve ma séance découverte</Link>
           </Button>
         </div>
       </div>
