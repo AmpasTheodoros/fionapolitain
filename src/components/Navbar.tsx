@@ -38,7 +38,7 @@ const Navbar = () => {
             <NavLink to="/">Services</NavLink>
             <NavLink to="/">Tarifs</NavLink>
             <NavLink to="/">À Propos</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="https://calendly.com/fiona-khadraoui/30min">Contact</NavLink>
           </div>
 
           {/* Mobile menu toggle */}
@@ -59,10 +59,10 @@ const Navbar = () => {
           isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         )}
       >
-        <NavLink to="/cours" onClick={() => setIsOpen(false)}>Services</NavLink>
-        <NavLink to="/tarifs" onClick={() => setIsOpen(false)}>Tarifs</NavLink>
-        <NavLink to="/a-propos" onClick={() => setIsOpen(false)}>À Propos</NavLink>
-        <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
+        <NavLink to="/" onClick={() => setIsOpen(false)}>Services</NavLink>
+        <NavLink to="/" onClick={() => setIsOpen(false)}>Tarifs</NavLink>
+        <NavLink to="/" onClick={() => setIsOpen(false)}>À Propos</NavLink>
+        <NavLink to="https://calendly.com/fiona-khadraoui/30min" onClick={() => setIsOpen(false)}>Contact</NavLink>
       </div>
     </nav>
   );
