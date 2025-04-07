@@ -55,7 +55,7 @@ const SolutionSection = () => {
           
           <div className="md:w-1/2">
             <img 
-              src="/lovable-uploads/fionapolitain.webp" 
+              src="/images/fionapolitain.webp" 
               alt="Fiona Politain enseignant" 
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

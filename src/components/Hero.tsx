@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-[350px] h-[350px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] xl:w-[650px] xl:h-[650px] rounded-full bg-[#f5e8dd] overflow-hidden flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/image.webp" 
+                  src="/images/image.webp" 
                   alt="Fiona Politain" 
                   className="w-full h-full object-cover"
                 />
