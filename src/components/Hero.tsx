@@ -1,10 +1,10 @@
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Play } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="min-h-[100vh] flex items-center justify-center relative overflow-hidden">
+    <div className="min-h-[100vh] flex items-center justify-center relative overflow-hidden pt-16 md:pt-20">
       <div 
         className="absolute inset-0 opacity-10 z-0 text-[20rem] font-bold text-fiona-pink/20 flex items-end justify-center overflow-hidden"
         style={{ fontFamily: "serif" }}
@@ -14,8 +14,8 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 max-w-7xl mx-auto">
           {/* Left side - Text content */}
-          <div className="w-full lg:w-1/2 space-y-8">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 font-playfair leading-tight">
+          <div className="w-full lg:w-1/2 space-y-8 mt-8 md:mt-0">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 font-playfair leading-tight">
               Vous cherchez un professeur <span className="text-fiona-pink">d'anglais</span> idéal?
             </h1>
             
