@@ -41,7 +41,7 @@ const BenefitsSection = () => {
           
           <BenefitCard 
             icon={<Users size={24} />}
-            title="Networking international"
+            title="Réseautage international"
             description="Élargissez votre réseau professionnel et personnel au-delà des frontières linguistiques."
           />
           
